@@ -468,39 +468,143 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.h-32 {
-  height: 8rem;
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
-.w-32 {
-  width: 8rem;
+.h-2 {
+  height: 0.5rem;
 }
 
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+.h-28 {
+  height: 7rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.h-7 {
+  height: 1.75rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.h-72 {
+  height: 18rem;
 }
 
-.text-red-50 {
+.h-auto {
+  height: auto;
+}
+
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'https\:\/\/images\.pexels\.com\/photos\/1563356\/pexels-photo-1563356\.jpeg\?cs\=srgb\&dl\=pexels-craig-adderley-1563356\.jpg\&fm\=jpg\'\)\] {
+  background-image: url('https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg');
+}
+
+.bg-\[url\(\'ttps\:\/\/images\.pexels\.com\/photos\/1563356\/pexels-photo-1563356\.jpeg\?cs\=srgb\&dl\=pexels-craig-adderley-1563356\.jpg\&fm\=jpgh\'\)\] {
+  background-image: url('ttps://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpgh');
+}
+
+.bg-\[url\(\'ima\'\)\] {
+  background-image: url('ima');
+}
+
+.bg-\[url\(\'images\'\)\] {
+  background-image: url('images');
+}
+
+.bg-\[url\(\'images\/b\'\)\] {
+  background-image: url('images/b');
+}
+
+.bg-\[url\(\'images\/bg\.png\'\)\] {
+  background-image: url('images/bg.png');
+}
+
+.bg-\[url\(\'\/images\/bg\.png\'\)\] {
+  background-image: url('/images/bg.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(254 242 242 / var(--tw-text-opacity));
-}
-
-.text-red-900 {
-  --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
-}
-
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
